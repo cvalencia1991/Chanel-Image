@@ -1,0 +1,159 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    background:hsl(30, 38%, 92%);
+ }
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:375px) {
+    .body{
+        margin: 20px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .wrapper{
+        padding: 20px;
+     }
+
+ .especificatios{
+         display: flex;
+         align-items: flex-start;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         align-content: center;
+         gap:10px;
+         background: white;
+         padding: 20px;
+         border-bottom-right-radius: 1em;
+         border-bottom-left-radius: 1em;
+     }
+     h1{
+         Font-size: 20px;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 700;
+         background: white;
+         color: grey;
+     }
+     h2{
+         Font-size: 30px;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 700;
+         background: white;
+     }
+     .describes{
+         Font-size: 14px;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 700;
+         background: white;
+         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+     }
+     .cost{
+     float: left;
+     background: white;
+     }
+     .costreal{
+         float:left;
+     }
+     ul,li{
+         display:flex;
+         list-style: none;
+         gap:20px;
+         background: white;
+     }
+     .attribution{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+     }
+     .buttom{
+        background-color: hsl(158, 36%, 37%);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        align-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        height: 3em;
+     }
+
+}
+
+@media  screen and (min-width:375px) {
+ .especificatios{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap:10px;
+    background: white;
+    padding: 20px;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+ }
+ .contenedor{
+    display: flex;
+    flex-direction: row;
+ }
+}
+
+
