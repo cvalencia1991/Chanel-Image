@@ -1,159 +1,276 @@
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  background: white;
+  align-items: center;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-*{
-    background:hsl(30, 38%, 92%);
- }
-
-.img-fluid{
-    width: 100%;
-    height: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-@media screen and (max-width:375px) {
-    .body{
-        margin: 20px;
-    }
-    .contenedor{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-     }
-     .wrapper{
-        padding: 20px;
-     }
-
- .especificatios{
-         display: flex;
-         align-items: flex-start;
-         flex-direction: column;
-         flex-wrap: nowrap;
-         align-content: center;
-         gap:10px;
-         background: white;
-         padding: 20px;
-         border-bottom-right-radius: 1em;
-         border-bottom-left-radius: 1em;
-     }
-     h1{
-         Font-size: 20px;
-         font-family: 'Montserrat', sans-serif;
-         font-weight: 700;
-         background: white;
-         color: grey;
-     }
-     h2{
-         Font-size: 30px;
-         font-family: 'Montserrat', sans-serif;
-         font-weight: 700;
-         background: white;
-     }
-     .describes{
-         Font-size: 14px;
-         font-family: 'Montserrat', sans-serif;
-         font-weight: 700;
-         background: white;
-         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-     }
-     .cost{
-     float: left;
-     background: white;
-     }
-     .costreal{
-         float:left;
-     }
-     ul,li{
-         display:flex;
-         list-style: none;
-         gap:20px;
-         background: white;
-     }
-     .attribution{
-         display: flex;
-         align-items: center;
-         flex-direction: column;
-     }
-     .buttom{
-        background-color: hsl(158, 36%, 37%);
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-direction: row;
-        align-content: space-around;
-        align-items: center;
-        border-radius: 5px;
-        height: 3em;
-     }
-
+* {
+  background: hsl(30, 38%, 92%);
 }
 
-@media  screen and (min-width:375px) {
- .especificatios{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    gap:10px;
-    background: white;
-    padding: 20px;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+@font-face {
+  font-family: Monserrate700;
+  src: url(./Fonts/Montserrat-Medium.ttf);
+  font-weight: 700;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
- }
- .contenedor{
-    display: flex;
-    flex-direction: row;
- }
+@font-face {
+  font-family: Monserrate500;
+  src: url(./Fonts/Montserrat-Medium.ttf);
+  font-weight: 500;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
 
+footer {
+  background: white;
+}
+
+.body {
+  margin: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1em;
+}
+
+.especificatios {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  gap: 10px;
+  background: white;
+  padding: 20px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+h1 {
+  font-family: Monserrate700, sans-serif;
+  background: white;
+  color: grey;
+}
+
+h2 {
+  background: white;
+}
+
+.describes {
+  background: white;
+  font-family: Monserrate500, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.cost {
+  float: left;
+  background: white;
+  color: grey;
+  font-family: Monserrate500, sans-serif;
+  font-size: small;
+}
+
+.costreal {
+  float: left;
+}
+
+ul,
+li {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  background: white;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  height: 3em;
+  border: none;
+  color: white;
+  gap: 1em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.sytlecart {
+  background-color: hsl(158, 36%, 37%);
+}
+
+.pricefinal {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: hsl(158, 36%, 37%);
+}
+
+.perfumname {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.preview {
+  font-family: Monserrate500, sans-serif;
+  letter-spacing: 5px;
+}
