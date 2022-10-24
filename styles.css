@@ -102,10 +102,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   display: flex;
@@ -133,7 +129,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
@@ -245,7 +240,6 @@ button {
   flex-direction: column;
 }
 
-
 .pricefinal {
   font-family: 'Fraunces', serif;
   font-weight: 700;
@@ -268,7 +262,7 @@ button {
 }
 
 .preview {
-  font-family: Monserrate500;
+  font-family: Monserrate500, sans-serif;
   letter-spacing: 5px;
 }
 
@@ -307,7 +301,7 @@ button:hover {
   .img-fluid-desktop {
     display: flex;
     border-radius: 10px 0 0 10px;
-    width: 285px;
+    width: 307px;
   }
 
   .styleinfo {
