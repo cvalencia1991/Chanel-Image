@@ -167,6 +167,7 @@ body {
   align-content: center;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
+  width: 20em;
 }
 
 h1 {
@@ -286,6 +287,7 @@ button:hover {
     position: absolute;
     top: 25%;
     left: 30%;
+    width: 100%;
   }
 
   button {
