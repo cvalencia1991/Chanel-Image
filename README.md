@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://github.com/cvalencia1991/Chanel-Image)
+- Solution URL: [Chanel live demo](https://cvalencia1991.github.io/Chanel-Image/)
+- Live Site URL: [Chanel-Image-Page](https://github.com/cvalencia1991/Chanel-Image)
 
 
 ### Built with
