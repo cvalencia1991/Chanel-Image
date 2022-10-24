@@ -13,8 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
 
 ### The challenge
 
@@ -55,7 +53,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Font Information](https://www.w3schools.com/cssref/css3_pr_font-face_rule.php) - This helped me for donwload and import any fonts for a project
+- [Font Information](https://www.w3schools.com/cssref/css3_pr_font-face_rule.php) - This helped me for donwload and import any fonts for a any project
 
 ## Author
 
@@ -64,8 +62,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Twitter - [@cvalenciaguilar](https://twitter.com/cvalenciaguilar)
 
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 
