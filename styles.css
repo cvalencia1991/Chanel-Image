@@ -279,7 +279,7 @@ button:hover {
   background-color: hsl(212, 21%, 14%);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 375px) {
   .especificatios {
     flex-direction: row;
     border-radius: 10px 10px;
