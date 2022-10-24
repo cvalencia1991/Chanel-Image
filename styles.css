@@ -102,17 +102,14 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   display: flex;
   list-style: none;
   gap: 20px;
   background: white;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 blockquote,
@@ -131,10 +128,6 @@ q::after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-* {
-  background: hsl(30, 38%, 92%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
@@ -161,15 +154,9 @@ footer {
   background: white;
 }
 
-.body {
+body {
   margin: 20px;
-}
-
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 1em;
+  background: hsl(30, 38%, 92%);
 }
 
 .especificatios {
@@ -178,9 +165,6 @@ footer {
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
-  gap: 10px;
-  background: white;
-  padding: 20px;
   border-bottom-right-radius: 1em;
   border-bottom-left-radius: 1em;
 }
@@ -225,6 +209,8 @@ li {
   list-style: none;
   gap: 20px;
   background: white;
+  flex-direction: row;
+  align-items: center;
 }
 
 .attribution {
@@ -236,8 +222,8 @@ li {
 button {
   background-color: hsl(158, 36%, 37%);
   display: flex;
-  justify-content: center;
   width: 100%;
+  justify-content: center;
   flex-direction: row;
   align-content: space-around;
   align-items: center;
@@ -246,15 +232,12 @@ button {
   border: none;
   color: white;
   gap: 1em;
+  cursor: pointer;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.sytlecart {
-  background-color: hsl(158, 36%, 37%);
 }
 
 .pricefinal {
@@ -270,7 +253,63 @@ button {
   font-size: xx-large;
 }
 
+.stylcardchanel {
+  margin: 10px;
+}
+
+.img-fluid-desktop {
+  display: none;
+}
+
 .preview {
   font-family: Monserrate500, sans-serif;
   letter-spacing: 5px;
+}
+
+.styleinfo {
+  padding: 1em;
+  display: flex;
+  gap: 10px;
+  background: white;
+  flex-direction: column;
+  border-radius: 0 0 10px 10px;
+}
+
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+@media screen and (min-width: 400px) {
+  .especificatios {
+    flex-direction: row;
+    border-radius: 10px 10px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+  }
+
+  button {
+    width: 15em;
+    position: relative;
+    left: 20px;
+  }
+
+  .img-fluid {
+    display: none;
+  }
+
+  .img-fluid-desktop {
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    width: 307px;
+  }
+
+  .styleinfo {
+    display: flex;
+    align-items: flex-start;
+    width: 15em;
+    flex-direction: column;
+    gap: 2em;
+    border-radius: 0 10px 10px 0;
+  }
 }
