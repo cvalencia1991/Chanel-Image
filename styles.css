@@ -263,8 +263,10 @@ button {
 }
 
 .preview {
-  font-family: Monserrate500, sans-serif;
+  font-family: Monserrate500;
   letter-spacing: 5px;
+  margin-top: 4px;
+
 }
 
 .styleinfo {
@@ -288,12 +290,6 @@ button:hover {
     top: 23%;
     left: 30%;
     width: 100%;
-  }
-
-  button {
-    width: 15em;
-    position: relative;
-    left: 20px;
   }
 
   .img-fluid {
