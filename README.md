@@ -31,6 +31,7 @@ Users should be able to:
 
 - Solution URL: [Chanel live demo](https://cvalencia1991.github.io/Chanel-Image/)
 - Live Site URL: [Chanel-Image-Page](https://github.com/cvalencia1991/Chanel-Image)
+- Live Figma URL: [Chanel-Page](https://www.figma.com/file/XIbRhqOkJYI4FUshu2EbIG/Chanel-Image?node-id=0%3A1)
 
 
 ### Built with
