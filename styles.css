@@ -264,6 +264,7 @@ button {
 
 .preview {
   font-family: Monserrate500;
+  font-size: 14px;
   letter-spacing: 5px;
   margin-top: 4px;
 
@@ -309,5 +310,6 @@ button:hover {
     flex-direction: column;
     gap: 2em;
     border-radius: 0 10px 10px 0;
+    padding-left: 2em;
   }
 }
