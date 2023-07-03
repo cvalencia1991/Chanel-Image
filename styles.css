@@ -256,6 +256,8 @@ button {
 
 .stylcardchanel {
   margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .img-fluid-desktop {
