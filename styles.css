@@ -138,6 +138,10 @@ main{
 
 }
 
+picture{
+  background-color: #fff;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
