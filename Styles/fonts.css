@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Monserrate";
+  src: url(../Assets/fonts/Montserrat-Medium.ttf) format('truetype'),
+  url('../Assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 500 700;
+}
+
+@font-face {
+ font-family: "Fraunces";
+ src: url("../Assets/fonts/Fraunces_72pt-Bold.ttf") format("truetype");
+ font-weight: 700;
+}
+

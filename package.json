@@ -1,17 +1,14 @@
 {
   "name": "chanel-image",
   "version": "1.0.0",
+  "author": "Cesar Alberto Valencia Aguilar",
   "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cvalencia1991/Chanel-Image.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cvalencia1991/Chanel-Image/issues"
