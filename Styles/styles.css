@@ -125,12 +125,12 @@ body{
 
   .card{
     flex-direction:row;
-    max-width: 600px;
-    height: auto;
+    max-width: 37.5rem;
+    height: 28.5rem;
   }
 
   .card picture img {
-    width: 20rem;
+    width: 18.75rem;
     height: 100%;
     border-radius: 1rem 0 0 1rem;
   }
